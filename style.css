@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Green: hsl(75, 94%, 57%);
+    --Grey_700: hsl(0, 0%, 20%);
+    --Grey_800: hsl(0, 0%, 12%);
+    --Grey_900: hsl(0, 0%, 8%);
+}
+
+/*---------General-------*/
+*{
+    text-decoration: none;
+}
+body{
+    background-color: var(--Grey_900);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.container{
+    width: 328px;
+    height: 630px;
+    background-color: var(--Grey_800);
+    border-radius: 8px;
+    margin: 120px auto;
+}
+
+
+/*----------header--------*/
+.container header {
+    text-align: center;
+}
+.container header img{
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    position: relative;
+    margin: 23px auto;
+}
+.container header h1{
+    color: var(--White);
+    position: relative;
+    bottom: 14px;
+    font-size: 25px;
+}
+.container header h4{
+    color: var(--Green);
+    position: relative;
+    bottom: 16px;
+    font-size: 14.5px;
+    font-weight: 600;
+}
+.container header p{
+    font-size: 14px;
+    color: var(--White);
+    font-weight: 500;
+}
+
+
+/*--------buttons--------*/
+.container .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .buttons button{
+    width: 280px;
+    height: 45px;
+    margin: 7px auto;
+    color:  var(--White);
+    background-color: var(--Grey_700);
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+.container .buttons button:hover{
+    color: var(--Grey_900);
+    background-color: var(--Green);
+}
+
+
+/*---------footer----------*/
+footer{
+    text-align: center;
+    color: azure;
+}
+footer a{
+    text-decoration: none;
+    color: var(--Green);
+}
