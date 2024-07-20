@@ -74,6 +74,7 @@ body{
     border-radius: 10px;
     border: none;
     font-weight: 600;
+    transition: .3s ease-in-out;
 }
 .container .buttons button:hover{
     color: var(--Grey_900);
