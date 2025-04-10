@@ -79,6 +79,7 @@ body{
 .container .buttons button:hover{
     color: var(--Grey_900);
     background-color: var(--Green);
+    cursor: pointer;
 }
 
 
